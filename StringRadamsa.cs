@@ -27,10 +27,7 @@ namespace Peach.Pro.Core.Mutators
         public StringRadamsa(DataElement obj)
             : base(obj)
         {
-            logger.Debug("Starting radamsa...");
             var str = (string)obj.InternalValue;
-            logger.Debug("Converted to string...");
-            // For sequential, use the length total number of mutations
             total = str.Length;
         }
 
@@ -69,7 +66,7 @@ namespace Peach.Pro.Core.Mutators
                 var str = (string)obj.InternalValue;
                 var sb = new StringBuilder(str);
                 string output;
-                File.WriteAllText("D:\\protocol-fuzzer-ce-main\\radamsa\\out.txt", sb.ToString());
+                File.WriteAllText(Radamsa.Arguments, sb.ToString());
                 System.Diagnostics.Process p = new System.Diagnostics.Process();
                     // Redirect the output stream of the child process.
                 p.StartInfo.UseShellExecute = false;
