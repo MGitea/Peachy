@@ -6,4 +6,5 @@ Instructions:
 - Utilities/Radamsa.cs holds important values. Change it to your values.
 - Rebuild/ Build the peach fuzzer
 
-Contributions are very welcomed.
+
+<p>Contributions are very welcomed.</p>
