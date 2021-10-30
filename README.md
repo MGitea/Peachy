@@ -8,3 +8,6 @@ How to use it:
 
 
 Contributions are very welcomed.
+
+Additional mutators:
+- Radamsa https://gitlab.com/akihe/radamsa
