@@ -1,5 +1,5 @@
 # Peachy
-This repository contains additional mutators for peach fuzzer! https://gitlab.com/gitlab-org/security-products/protocol-fuzzer-ce
+#This repository contains additional mutators for peach fuzzer! https://gitlab.com/gitlab-org/security-products/protocol-fuzzer-ce
 
 Instructions:
 - Copy the files to {PEACH_SRC_HOME/pro/Core/Mutators}.
@@ -7,4 +7,4 @@ Instructions:
 - Rebuild/ Build the peach fuzzer
 
 
-<p>Contributions are very welcomed.</p>
+Contributions are very welcomed.
